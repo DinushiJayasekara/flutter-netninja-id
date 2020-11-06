@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'Dinushi Jayasekara',
               style: TextStyle(
-                color: Colors.amber[800],
+                color: Colors.amber[700],
                 letterSpacing: 2.0,
                 fontSize: 24.0,
                 fontWeight: FontWeight.bold,
@@ -62,6 +62,47 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(
               height: 30.0,
+            ),
+            Text(
+              'CURRENT NINJA LEVEL',
+              style: TextStyle(
+                color: Colors.grey,
+                letterSpacing: 2.0,
+              ),
+            ),
+            SizedBox(
+              height: 10.0,
+            ),
+            Text(
+              '8',
+              style: TextStyle(
+                color: Colors.amber[700],
+                letterSpacing: 2.0,
+                fontSize: 24.0,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(
+              height: 30.0,
+            ),
+            Row(
+              children: <Widget>[
+                Icon(
+                  Icons.email,
+                  color: Colors.grey[400],
+                ),
+                SizedBox(
+                  width: 10.0,
+                ),
+                Text(
+                  'dinu@gmail.com',
+                  style: TextStyle(
+                    color: Colors.grey[600],
+                    fontSize: 15,
+                    letterSpacing: 1.0,
+                  ),
+                ),
+              ],
             ),
           ],
         ),
