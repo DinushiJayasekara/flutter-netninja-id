@@ -44,7 +44,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ninjaLevel += 1;
           });
         },
-        child: Icon(Icons.send),
+        child: Icon(Icons.star_half_rounded),
+        foregroundColor: Colors.amber[400],
         backgroundColor: Colors.grey[800],
       ),
       body: Padding(
